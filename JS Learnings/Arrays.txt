@@ -1,0 +1,6 @@
+sort() => Syntax: arr.sort();
+---------------
+
+1. arr.sort() will works fine for strings but for numbers, it will compare the starting integer in that number, so might not correct results every time
+   This can be overtaken by using a callback function like below
+   Ex: arr.sort((a,b)=> a - b); // This will return in asc order, for desc order, use arr.sort((a,b)=> b - a);
