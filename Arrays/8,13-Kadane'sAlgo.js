@@ -6,13 +6,14 @@ class Solution {
   //Function to find the sum of contiguous subarray with maximum sum.
   maxSubarraySum(arr, N) {
     // code here
-    let maxSum = arr[0],
-      sum = arr[0];
-    for (let i = 1; i < N; i++) {
-      sum = Math.max(sum + arr[i], arr[i]);
-      maxSum = Math.max(maxSum, sum);
+    let ans = Math.pow(-10, 7),
+      sum = 0;
+    for (let i = 0; i < N; i++) {
+      sum += arr[i];
+      ans = Math.max(ans, sum);
+      sum = Math.max(0, sum);
     }
-    return maxSum;
+    return ans;
   }
 }
 
