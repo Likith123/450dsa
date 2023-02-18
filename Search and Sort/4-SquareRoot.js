@@ -1,4 +1,4 @@
-// Arrays -> 4. Count Squares less than N & Square Root(floor) of N
+// Search and Sort -> 4. Count Squares less than N & Square Root(floor) of N
 // Link -> https://practice.geeksforgeeks.org/problems/count-squares3649/1
 
 class Solution {

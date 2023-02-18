@@ -1,4 +1,4 @@
-// Arrays -> 1. First and last occurrences of x
+// Search and Sort -> 1. First and last occurrences of x
 // Link -> https://practice.geeksforgeeks.org/problems/first-and-last-occurrences-of-x3116/1
 
 class Solution {

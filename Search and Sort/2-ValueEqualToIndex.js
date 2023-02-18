@@ -1,4 +1,4 @@
-// Arrays -> 2. Value equal to index value
+// Search and Sort -> 2. Value equal to index value
 // Link -> https://practice.geeksforgeeks.org/problems/value-equal-to-index-value1330/1
 
 class Solution {

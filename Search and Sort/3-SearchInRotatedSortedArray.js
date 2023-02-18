@@ -1,4 +1,4 @@
-// Arrays -> 3. Search in Rotated Sorted Array
+// Search and Sort -> 3. Search in Rotated Sorted Array
 // Link -> https://leetcode.com/problems/search-in-rotated-sorted-array/
 
 var search = function (nums, target) {
